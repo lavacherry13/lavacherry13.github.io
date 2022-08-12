@@ -1,0 +1,48 @@
+/*selektor{
+    eigenschaft: wert;
+}*/
+html{
+    font-family: Helvetica, Arial sans-serif;
+}
+body{
+    background-color: rgb(244, 174, 174);
+}
+/*bitte nicht vergessen: hilft beim responsiven webdesign*/
+
+*{box-sizing: border-box;} /*rechnet die größe der box von der border rückwärts*/
+
+h1 {
+    color:rgb(142, 44, 44);
+    background: rgb(241, 167, 167);
+}
+
+/*der hyperlink soll sein: 
+roter hintergrund und gelbe schrift. und einen rahmen auch in gelb, 2px breit*/
+
+a{
+    text-decoration: none;
+    padding: 7px;
+    color:goldenrod;
+background-color: red;
+border:yellow 2px solid;
+}
+
+/*eine ID in HTML wird zu einer Raute (#)*/
+#drei{
+    color: rgb(175, 101, 245);
+    background-color:blueviolet;
+}
+.green{
+    background-color: green;
+}
+p{
+    color: rgb(26, 26, 26);
+    width: 500px;
+    padding: 5px;
+    border: 3px solid pink; 
+    box-sizing: border-box;
+}
+
+
+/*klassen in CSS werden mit einem punkt angesprochen*/
+
